@@ -81,7 +81,6 @@
   #self-container {
     display: block;
     margin: 40px 0 !important;
-    /* margin-bottom: 40px; */
     height: fit-content;
   }
 
