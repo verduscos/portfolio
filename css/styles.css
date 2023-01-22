@@ -136,6 +136,7 @@ a {
   border-radius: 100%;
 }
 
+
 #title-img > img {
   height: 75px;
   width: 75px;
@@ -143,13 +144,14 @@ a {
   object-fit: cover;
   object-position: 50% 10%;
   transition-duration: .25s;
-  -webkit-filter: grayscale(100%); /* for Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+
 }
 
 #title-img > img:hover {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%); /* for Safari 6.0 - 9.0 */
 }
 
 #title-img {
